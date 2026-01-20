@@ -90,4 +90,4 @@ CSS uses the :target pseudo-class to:
 
 output:
 screenshot![image alt](Screenshot 2026-01-20 185905.png)
-screenshot![image alt]()
+screenshot![image alt](Screenshot 2026-01-20 185905.png)
