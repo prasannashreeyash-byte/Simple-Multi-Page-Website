@@ -89,5 +89,5 @@ CSS uses the :target pseudo-class to:
 *Click on the navigation links to switch between pages
 
 output:
-screenshot![image alt]()
+screenshot![image alt](Screenshot 2026-01-20 185905.png)
 screenshot![image alt]()
