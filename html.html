@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single File Multi Page Website</title>
+
+    <style>
+        /* ===== GLOBAL STYLES ===== */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* ===== HEADER & NAV ===== */
+        header {
+            background-color: #3c4752;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav ul li a.active {
+            border-bottom: 3px solid #f1c40f;
+            padding-bottom: 5px;
+        }
+
+        /* ===== MAIN CONTENT ===== */
+        main {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            min-height: 300px;
+            border-radius: 5px;
+        }
+
+        section {
+            display: none;
+        }
+
+        section:target {
+            display: block;
+        }
+
+        /* Default page */
+        #home {
+            display: block;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background-color: #2c3e50;
+            color: rgb(10, 180, 237);
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Website</h1>
+    <nav>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- HOME -->
+    <section id="home">
+        <h2>Home Page</h2>
+        <p>
+            Welcome to the Home page.  
+            This is a single-file website using HTML and CSS only.
+        </p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Page</h2>
+        <p>
+            This page contains information about the website.
+            Navigation and layout remain consistent.
+        </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact Page</h2>
+        <p>Email: prasanna@email.com</p>
+        <p>Phone: +91 98765 43210</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 My Website. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
